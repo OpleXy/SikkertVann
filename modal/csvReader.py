@@ -1,5 +1,5 @@
 import pandas as pd
-from connectSql import get_mysql_engine
+from modal.databaseengine import get_mysql_engine
 
 dataFrame = pd.read_csv('Overløp (Alarm)-data-90_dagar.csv')
 
