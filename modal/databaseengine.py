@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 
 def get_mysql_engine():
     username = '274640'
-    password = 'redacted'
+    password = "passord"
     host = 'web01.usn.no'
     port = 3306
     database = '274640'
